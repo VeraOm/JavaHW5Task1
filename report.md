@@ -27,8 +27,6 @@
 * Java: openjdk version "11.0.6" 2020-01-14
    OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)
    OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
-* Файл исходного текста тестируемого класса BonusServiceTest:  
-* Файл исходного текста класса BonusService: 
-* Файл класса тестируемого BonusServiceTest: 
-* Файл класса BonusService: 
-* Файл настройки проекта Maven: 
+* Файл исходного текста тестируемого класса BonusServiceTest: https://github.com/VeraOm/JavaHW5Task1/blob/master/src/test/java/BonusServiceTest.java
+* Файл исходного текста класса BonusService: https://github.com/VeraOm/JavaHW5Task1/blob/master/src/main/java/BonusService.java
+* Файл настройки проекта Maven: https://github.com/VeraOm/JavaHW5Task1/blob/master/pom.xml
