@@ -1,4 +1,4 @@
-﻿#  Отчет о тестировании Задачи №1 - Дописываем тесты
+#  Отчет о тестировании Задачи №1 - Дописываем тесты
 20.04.2020 - 20.04.2020 было выполнено задание "Дописываем тесты".
 
 На тестирование 2 часа
@@ -13,14 +13,16 @@
 
 
 В качестве источника тестовых данных использовались данные составленные согласно требованиям Задачи №1 артефакта "Домашнее задание к занятию «2.3. Система сборки Maven, управление зависимостями, автотесты на JUnit5»":
-* Метод shouldCalculateForRegisteredAndUnderLimit, переменная expected - 30
-* Метод shouldCalculateForRegisteredAndUnderLimit, переменная expected - 500
-* Метод shouldCalculateForUnRegisteredAndUnderLimit, переменная expected - 30
-* Метод shouldCalculateForUnRegisteredAndUnderLimit, переменная expected - 10
-* Метод shouldCalculateForRegisteredAndOverLimit, переменная expected - 500
-* Метод shouldCalculateForRegisteredAndOverLimit, переменная expected - 30
-* Метод shouldCalculateForUnRegisteredAndOverLimit, переменная expected - 30
-* Метод shouldCalculateForUnRegisteredAndOverLimit, переменная expected - 500
+* Метод shouldCalculateForRegisteredAndUnderLimit, переменная expected - 30, переменная amount - 1000_60
+* Метод shouldCalculateForRegisteredAndUnderLimit, переменная expected - 500, переменная amount - 1000_60
+* Метод shouldCalculateForRegisteredAndUnderLimit, переменная expected - 499, переменная amount - 16_666_66
+* Метод shouldCalculateForUnRegisteredAndUnderLimit, переменная expected - 30, переменная amount - 1000_60
+* Метод shouldCalculateForUnRegisteredAndUnderLimit, переменная expected - 10, переменная amount - 1000_60
+* Метод shouldCalculateForRegisteredAndOverLimit, переменная expected - 500, переменная amount - 1_000_000_60
+* Метод shouldCalculateForRegisteredAndOverLimit, переменная expected - 30, переменная amount - 1_000_000_60
+* Метод shouldCalculateForRegisteredAndOverLimit, переменная expected - 500, переменная amount - 16_666_67
+* Метод shouldCalculateForUnRegisteredAndOverLimit, переменная expected - 30, переменная amount - 1_000_000_60
+* Метод shouldCalculateForUnRegisteredAndOverLimit, переменная expected - 500, переменная amount - 1_000_000_60
 
 Тестирование производилось в следующем окружении:
 *  ОС: Windows x64 Home
